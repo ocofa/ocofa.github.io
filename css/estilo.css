@@ -1,5 +1,5 @@
 .bg-dark { background-color: #1a1a1aff!important;}
 .navbar-brand{margin: 0 0;}
-li.nav-item.active {color: #ffd42a;}
+.navbar-dark .navbar-nav .active>.nav-link {color: #ffd42a;}
 #footer .list-group-item {background: none; color: #ffd42a;}
 #footer .list-group-item a {color: #ffd42a;}
