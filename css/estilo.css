@@ -1,6 +1,7 @@
 .bg-dark { background-color: #1a1a1aff!important;}
 .navbar-brand{margin: 0 0;}
 .navbar-dark .navbar-nav .active>.nav-link {color: #ffd42a;}
+#footer{padding:2em}
 #footer .list-group-item {background: none; color: #ffd42a;}
 #footer .col-sm-4, #footer .list-group-item a {color: #ffd42a;}
 
