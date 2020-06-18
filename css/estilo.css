@@ -1,4 +1,4 @@
 .bg-dark { background-color: #1a1a1aff!important;}
 .navbar-brand{margin: 0 0;}
-#footer .list-group-item {background: none;}
-#footer .list-group-item a {color: #f90;}
+#footer .list-group-item {background: none; color: #ffd42a;}
+#footer .list-group-item a {color: #ffd42a;}
