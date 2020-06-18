@@ -1,6 +1,6 @@
 # portal
 
-###Somos o Observatório Capixaba da COVID-19 nas Favelas!
+### Somos o Observatório Capixaba da COVID-19 nas Favelas!
 
 Somos Pesquisadores de diversas áreas: epidemiologia, estatística, ciências sociais, serviço social, geografia, design e comunicação.
 
