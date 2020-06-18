@@ -5,10 +5,6 @@
 #footer .list-group-item {background: none; color: #ffd42a;}
 #footer .col-sm-4, #footer .list-group-item a {color: rgba(255,255,255,.5);}
 
-#logo-footer{padding: 1em;}
-
-
-
 @media (min-width: 992px) {
 	#navbarTogglerDemo02 {
 		max-width: 670px;
