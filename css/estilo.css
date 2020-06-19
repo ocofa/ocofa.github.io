@@ -3,6 +3,7 @@
 .navbar-dark .navbar-nav .active>.nav-link {color: #ffd42a;}
 #footer{padding:2em}
 #footer .list-group-item .active{background: none; color: #ffd42a;}
+#footer .list-group-item, #footer .list-group-item a {background: none; color: rgba(255,255,255,.5)}
 #footer .col-sm-4,#footer .list-group-item, #footer .list-group-item a {color: rgba(255,255,255,.5);}
 .col-sm-4{margin-bottom:3em;}
 #mapas .card .card-header {
