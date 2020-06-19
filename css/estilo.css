@@ -5,14 +5,14 @@
 #footer .list-group-item {background: none; color: #ffd42a;}
 #footer .col-sm-4, #footer .list-group-item a {color: rgba(255,255,255,.5);}
 .col-sm-4{margin-bottom:3em;}
-#home .card .card-header {
+#mapas .card .card-header {
     background: #ffd42a;
     color: #1a1a1aff;
 }
 
 
 @media (min-width: 575px) {
-	.card{width:95%;margin-right:5%;}
+	#mapa .card{width:95%;margin-right:2%;}
 }
 
 
