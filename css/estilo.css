@@ -17,7 +17,7 @@
 @media (min-width: 576px) {
 	#mapas .card{width:95%;margin-right:2%;}
 	.card-group>.card+.card {  margin-left: 0;    border: 1px solid rgba(0,0,0,.125);}
-	.banner_image{width:600px; margin: 0 auto; display:block;}
+	.banner_image{width:300px; margin: 0 auto; display:block;}
 }
 
 
