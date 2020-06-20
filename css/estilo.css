@@ -1,8 +1,8 @@
-.bg-dark { background-color: #1a1a1aff!important;}
+.bg-dark { background-color: #1a1a1aff!impo rtant;}
 .navbar-brand{margin: 0 0;}
 .navbar-dark .navbar-nav .active>.nav-link {color: #ffd42a;}
 #footer{padding:2em}
-#footer .list-group-item .active, #footer .list-group-item .active a{background: none; color: #ffd42a;}
+#footer .list-group-item .active, #footer .list-group-item .active a{bprder:none; background: none; color: #ffd42a!important;}
 #footer .list-group-item, #footer .list-group-item a {background: none; color: rgba(255,255,255,.5)}
 #footer .col-sm-4,#footer .list-group-item, #footer .list-group-item a {color: rgba(255,255,255,.5);}
 .col-sm-4{margin-bottom:3em;}
