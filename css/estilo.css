@@ -12,9 +12,9 @@
 }
 
 
-@media (min-width: 575px) {
+@media (min-width: 576px) {
 	#mapas .card{width:95%;margin-right:2%;}
-}
+	.card-group>.card+.card {  margin-left: 0;    border: 1px solid rgba(0,0,0,.125);}
 
 
 @media (min-width: 992px) {
