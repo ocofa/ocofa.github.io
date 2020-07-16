@@ -1,5 +1,4 @@
 # Somos o Observatório Capixaba da COVID-19 nas Favelas!
----
 
 ## Quem Somos?
 
