@@ -1,17 +1,11 @@
-.bg-dark {background-color: #1a1a1aff !important;}
+.bg-dark { background-color: #1a1a1aff!important;}
 .navbar-brand{margin: 0 0;}
 .navbar-dark .navbar-nav .active>.nav-link {color: #ffd42a;}
-.embed-responsive-item {
-	width: 40%;
-	height: 100%;
-	min-width: 300px;
-	min-height: 400px;
-}
 #footer{padding:2em}
 
 #footer .list-group-item, #footer .list-group-item a {background: none; color: rgba(255,255,255,.5)}
 #footer .col-sm-4{color: rgba(255,255,255,.5); margin-bottom:3em;}
-#footer li.list-group-item.active a { color: #ffd42a !important; border: none !important;}
+#footer li.list-group-item.active a { color: #ffd42a!important; border: none!important;}
 
 #mapas .card .card-header {
     background: #ffd42a;
