@@ -1,7 +1,7 @@
 .bg-dark { background-color: #1a1a1aff!important;}
 .navbar-brand{margin: 0 0;}
 .navbar-dark .navbar-nav .active>.nav-link {color: #ffd42a;}
-.embed-responsive-item {
+.faixa-graficos {
 	width: 40%;
 	height: 100%;
 	min-width: 300px;
