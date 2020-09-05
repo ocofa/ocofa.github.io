@@ -2,8 +2,6 @@
 .navbar-brand{margin: 0 0;}
 .navbar-dark .navbar-nav .active>.nav-link {color: #ffd42a;}
 .faixa-graficos {
-	width: 40%;
-	height: 100%;
 	min-width: 300px;
 	min-height: 300px;
 }
@@ -18,9 +16,14 @@
     color: #1a1a1aff;
 }
 
-#banner{padding:1em 0}
+.banner{padding:1em 0;
+		height:500px;
+	
+	}
 
-.banner_image{width:100%}
+.banner_image{width:100%;
+			height:100;
+			}	
 
 
 @media (min-width: 576px) {
