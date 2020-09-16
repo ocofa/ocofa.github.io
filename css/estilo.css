@@ -1,7 +1,10 @@
 .bg-dark { background-color: #1a1a1aff!important;}
 .navbar-brand{margin: 0 0;}
 .navbar-dark .navbar-nav .active>.nav-link {color: #ffd42a;}
+.nav-tabs .nav-link{color: #ffd42a;}
 #footer{padding:2em}
+
+
 
 #footer .list-group-item, #footer .list-group-item a {background: none; color: rgba(255,255,255,.5)}
 #footer .col-sm-4{color: rgba(255,255,255,.5); margin-bottom:3em;}
