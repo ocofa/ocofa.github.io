@@ -67,7 +67,7 @@
   <div class="row">
 
     <div class="col-12 text-center my-5">
-      <h1 class="display-4">Mapas do Espírto Santo</h1>
+      <h1 class="display-4">Mapas do Espírito Santo</h1>
       <p></p>
     </div>
 
@@ -77,17 +77,14 @@
 
     <div class="col-sm-4 col-md-4 mb-3">
 
-      <nav id="navbar-vertical" class="navbar navbar-light bg-light">
+      <nav id="navbar-vertical" class="navbar bg-dark" role="tablist">
 
-        <nav class="nav nav-pills flex-column">
+        <nav class="nav nav-pills flex-column justify-content-center ">
 
-          <a class="nav-link" href="#mapa-de-letalidade">Mapa de Letalidade</a> 
+          <a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#mapa-de-letalidade">Mapa de Letalidade</a> 
+          <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#numero-de-casos">Número de Casos</a> 
+          <a class="nav-link" id="nav-pills-03" data-toggle="pill" href="#numero-de-mortes">Número de mortes</a> 
 
-          <nav class="nav nav-pills flex-column">
-
-            <a class="nav-link ml-3" href="#item1-1">Item 1.1</a>
-
-          </nav>
           <a class="nav-link my-2" href="#item2">Item 2</a>
           <a class="nav-link my-2" href="#item3">Item 3</a>
           
@@ -97,19 +94,43 @@
 
     </div>
 
-    <div class="col-sm-8 col-md-8 col-lg-6">
+    <div class="tab-content col-sm-8 col-md-8 text-center"  id="nav-pills-content">
 
-      <div class="scrollspy-site" data-spy="scroll" data-target="#navbar-vertical" data-offset="0" >
+      <div class="tab-pane fade show active" id="mapa-de-letalidade" role="tabpanel" >
         
          <h4>Mapa de letalidade</h4>
           
-          <div id="mapa-de-letalidade" class="embed-responsive embed-responsive-1by1 my-3">
+          <div class="embed-responsive embed-responsive-1by1 my-3">
             
-            <object class="embed-responsive-item" data="graficos/graf_letalidade_es.html" height="500px">
+            <object class="embed-responsive-item" data="graficos/graf_letalidade_es.html" height="400px">
             </object>
           
           </div>
+      </div>
+
+      <div class="tab-pane fade" id="numero-de-casos" role="tabpanel" >
         
+        <h4>Número de Casos</h4>
+          
+          <div class="embed-responsive embed-responsive-1by1 my-3">
+            
+            <object class="embed-responsive-item" data="graficos/graf_numero_casos_es.html" height="500px">
+            </object>
+          
+          </div>
+      </div>
+
+      <div class="tab-pane fade" id="numero-de-mortes" role="tabpanel" >
+        
+        <h4>Número de Mortes</h4>
+          
+          <div class="embed-responsive embed-responsive-1by1 my-3">
+            
+            <object class="embed-responsive-item" data="graficos/graf_numero_mortes_es.html" height="500px">
+            </object>
+          
+          </div>
+      </div>
 
             <h5 id="item1-1">Curabitur vel massa</h5>
             <p>Vestibulum eu nunc in nibh pellentesque pretium. Morbi efficitur, nulla ac tempus aliquam, dolor nulla fringilla dui, vel semper lectus elit tempor nisi. Sed finibus dui ut elementum imperdiet. Fusce eget nulla diam. Fusce rhoncus, orci a vehicula hendrerit, massa ante tincidunt arcu, eu ornare arcu justo ac enim. Sed lacinia neque ut leo sodales suscipit aliquet ut odio. Cras egestas rhoncus augue, ac elementum dolor efficitur sit amet. Nam justo nisl, lacinia et enim et, consectetur accumsan urna. Proin sit amet justo vitae nulla vehicula efficitur. Nam molestie pharetra elit,</p>
@@ -120,9 +141,9 @@
             <h4 id="item3">Nullam erat tellus</h4>
             <p>Curabitur faucibus aliquet diam, ut tempus orci egestas in. Aliquam et dui ultricies, elementum nunc vel, luctus mi. Ut malesuada in augue pulvinar aliquet. Donec at dui non felis blandit hendrerit. Phasellus mollis, tortor vel efficitur finibus, mauris sapien consectetur purus, eget sollicitudin velit metus ut nibh. Phasellus porttitor, tortor sit amet blandit consectetur, augue purus fermentum arcu, et posuere nisi neque eget neque. Sed accumsan eros sit amet urna scelerisque vehicula. Praesent posuere, nisl ac mattis ullamcorper, justo tortor lacinia mauris, non dignissim ligula lorem eget lectus. Nullam tincidunt vulputate urna quis semper. Curabitur elementum leo non vulputate iaculis. </p>    
           
-      </div>
+    </div>
 
-    </div>  
+  
 
   </div>
 </div>
